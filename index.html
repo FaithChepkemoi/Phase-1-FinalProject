@@ -6,7 +6,6 @@
     <title>ScratchSphere</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,6 +17,8 @@
                     <li><a href="#explore">Explore</a></li>
                     <li><a href="#sessions">Training Sessions</a></li>
                     <li><a href="#showcase">Showcase</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -25,8 +26,8 @@
 
     <main>
         <section id="explore">
-            <h2>Explore Scratch Content</h2>
-            <p>Discover the world of Scratch programming and unleash your creativity!</p>
+            <h2>Scratch Content Library</h2>
+            <div id="tutorial-list"></div>
         </section>
 
         <section id="sessions">
@@ -35,10 +36,34 @@
         </section>
 
         <section id="showcase">
-            <h2>Project Showcase</h2>
-            <!-- Showcase of projects -->
-            <p>Check out amazing projects created by learners around the globe.</p>
+            <h2>Project Portfolio Showcase</h2>
+            <div id="project-list"></div>
         </section>
+
+        <section id="testimonials">
+            <h2>Impact & Testimonials</h2>
+            <!-- Testimonials will be dynamically loaded here -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section id="newsletter">
+            <h2>Newsletter Signup</h2>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Your Email" required />
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
     </main>
 
     <footer>

@@ -57,20 +57,20 @@ h2 {
     color: #333;
 }
 
-#session-list {
+#tutorial-list,
+#session-list,
+#project-list {
     margin-top: 20px;
 }
 
-.session-item {
+.session-item,
+.tutorial-item,
+.project-item {
     background-color: #f9f9f9;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.session-item strong {
-    display: block;
 }
 
 footer {
@@ -80,6 +80,24 @@ footer {
     padding: 10px 0;
 }
 
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Responsive Design */
 @media (max-width: 600px) {
     nav ul li {
         display: block;
