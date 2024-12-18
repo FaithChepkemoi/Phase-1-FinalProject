@@ -23,5 +23,14 @@ document.addEventListener('DOMContentLoaded', function() {
                  sessionList.appendChild('div');
 
 });
-     });
-    })
+        //Load Projects
+        const projectList=document.getElementById('project-list');
+        data.projects.forEach(project=>{
+            const div = document.createElement('div');
+            div.classList.add('project-item');
+            div.innerHTML=`<strong> ${project.title}</strong> <br> country:${project.country} <br> <a href="${project.url}" target="_blank"> View Project</a>`;
+               projectList.appendChild('div');
+    });
+    
+})
+})
