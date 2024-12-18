@@ -1,0 +1,31 @@
+{
+    "tutorials": [
+        {
+            "title": "Getting Started with Scratch",
+            "level": "Beginner",
+            "url": "https://example.com/tutorial1"
+        },
+        {
+            "title": "Intermediate Scratch Projects",
+            "level": "Intermediate",
+            "url": "https://example.com/tutorial2"
+        }
+    ],
+    "sessions": [
+        {
+            "session": "Introduction to Scratch",
+            "date": "2024-01-10",
+            "location": "Online",
+            "description": "Learn the basics of Scratch programming.",
+            "slots": 20,
+            "cost": "$50"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Scratch Project 1",
+            "country": "USA",
+            "url": "#"
+        }
+    ]
+}
