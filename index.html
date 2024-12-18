@@ -2,42 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ScratchSphere</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
- <header>
-    <h1>WELCOME TO ScratchSphere</h1>
-    <nav>
-        <ul>
-     <li> <a href="#explore">Explore</a></li>
-     <li> <a href="#sessions">Training Session </a></li>
-     <li> <a href="#showcase">Showcase</a></li>
-        </ul>
-    </nav>
- </header>
+    <header>
+        <div class="container">
+            <h1>Welcome to ScratchSphere</h1>
+            <nav>
+                <ul>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#sessions">Training Sessions</a></li>
+                    <li><a href="#showcase">Showcase</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
- <section id="explore">
-    <h2>Explore Scratch Programming content</h2>
-      <!-- Content about Scratch programming -->
- </section>
- <section id="Session">
-    <h2>Upcoming Training Sessions</h2>
-    <div id="Session-list"></div>
-    
- </section>
+    <main>
+        <section id="explore">
+            <h2>Explore Scratch Content</h2>
+            <p>Discover the world of Scratch programming and unleash your creativity!</p>
+        </section>
 
-<section id="Showcase">
-    <h2>Projects Showcase </h2>
- <!-- Showcase of projects -->
+        <section id="sessions">
+            <h2>Upcoming Training Sessions</h2>
+            <div id="session-list"></div>
+        </section>
 
-</section>
-<footer>
-    <p>&copy; 2024 ScratchSphere. All rights reserved.</p>
-</footer>
-<script src="script.js"></script>
+        <section id="showcase">
+            <h2>Project Showcase</h2>
+            <!-- Showcase of projects -->
+            <p>Check out amazing projects created by learners around the globe.</p>
+        </section>
+    </main>
 
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ScratchSphere. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
 </html>
