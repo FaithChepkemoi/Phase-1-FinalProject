@@ -48,27 +48,29 @@
             "country": "USA",
             "url": "#",
             "images": [
-                "images/project1_image1.jpg",
-                "images/project1_image2.jpg",
-                "images/project1_image3.jpg",
-                "images/project1_image4.jpg",
-                "images/project1_image5.jpg"
-            ]
+               "images/project1_image1.jpg",
+               "images/project1_image2.jpg",
+               "images/project1_image3.jpg",
+               "images/project1_image4.jpg",
+               "images/project1_image5.jpg"
+           ]
         }
     ],
-   
     "testimonials": [
         {
-            "title": "Scratch Project 1",
-            "country": "USA",
-            "url": "#",
-            "images": [
-                "images/project1_image1.jpg",
-                "images/project1_image2.jpg",
-                "images/project1_image3.jpg",
-                "images/project1_image4.jpg",
-                "images/project1_image5.jpg"
-            ]
+           "name": "John Doe",
+           "feedback": "This platform has transformed my teaching experience!",
+           "images": [
+               "images/testimonial1_image.jpg"
+           ]
+        },
+        {
+           "name": "Jane Smith",
+           "feedback": "I learned so much from the Scratch tutorials!",
+           "images": [
+               "images/testimonial2_image.jpg"
+           ]
         }
     ]
-}
+ }
+ 
