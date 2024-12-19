@@ -4,8 +4,7 @@
           "title": "Getting Started with Scratch",
           "level": "Beginner",
           "images": [
-             "images/sprite.png",
-             "images/advance.jpeg"
+             "images/sprite.png"
           ]
        },
        {
@@ -19,7 +18,7 @@
     "sessions": [
        {
           "session": "Introduction to Scratch",
-          "date": "2024-01-10",
+          "date": "2025-01-10",
           "location": "Online",
           "description": "Learn the basics of Scratch programming.",
           "slots": 20,
@@ -30,7 +29,7 @@
        },
        {
           "session": "Advanced Scratch Techniques",
-          "date": "2024-01-17",
+          "date": "2025-01-17",
           "location": "Online",
           "description": "Explore advanced concepts in Scratch.",
           "slots": 15,
@@ -41,7 +40,7 @@
        },
        {
           "session": "Scratch Game Development",
-          "date": "2024-01-24",
+          "date": "2025-01-24",
           "location": "Online",
           "description": "Create your own games using Scratch.",
           "slots": 25,
@@ -52,7 +51,7 @@
        },
        {
           "session": "Scratch Animation Workshop",
-          "date": "2024-01-31",
+          "date": "2025-01-31",
           "location": "Online",
           "description": "Learn to animate your stories in Scratch.",
           "slots": 30,
@@ -66,7 +65,7 @@
        {
           "title": "Project A",
           "description": "Description of Project A.",
-          "url": "#", 
+          "url": "https://scratch.mit.edu/projects/1067401875/", 
           "images": ["images/advance.jpeg"]
        },
        {
