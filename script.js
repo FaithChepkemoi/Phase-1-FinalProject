@@ -31,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
             div.innerHTML=`<strong> ${project.title}</strong> <br> country:${project.country} <br> <a href="${project.url}" target="_blank"> View Project</a>`;
                projectList.appendChild('div');
     });
-    
 })
+
+          .catch(error=> console.error('Error fetching data:',error));
+          
+
 })
