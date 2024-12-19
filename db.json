@@ -5,7 +5,7 @@
             "level": "Beginner",
             "url": "https://example.com/tutorial1",
             "images": [
-                "images/tutorial1_image1.jpg",
+                "images/sprite.webp",
                 "images/tutorial1_image2.jpg",
                 "images/tutorial1_image3.jpg",
                 "images/tutorial1_image4.jpg",
@@ -17,7 +17,7 @@
             "level": "Intermediate",
             "url": "https://example.com/tutorial2",
             "images": [
-                "images/tutorial2_image1.jpg",
+                "images/Advance.jpeg",
                 "images/tutorial2_image2.jpg",
                 "images/tutorial2_image3.jpg",
                 "images/tutorial2_image4.jpg",
