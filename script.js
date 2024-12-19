@@ -40,15 +40,15 @@ document.addEventListener('DOMContentLoaded', function() {
             data.forEach(session => {
                 const div = document.createElement('div');
                 div.classList.add('session-item');
-                div.innerHTML = `<strong>${session.session}</strong><br>Date: ${session.date}<br>Location: ${session.location}<br>Description: ${session.description}<br>Available Slots: ${session.slots}<br>Cost: ${session.cost}`;
-                
-                // Add images for sessions
-                session.images.forEach(image => {
-                    const img = document.createElement('img');
-                    img.src = image; // Ensure this path is correct
-                    img.alt = `${session.session} Image`;
-                    div.appendChild(img);
-                });
+ 
+                // Create session layout
+                div.innerHTML = `
+                    <div class="session-image">
+                        <img src="${session.images[0]}" alt="${session.session} Image">
+                    </div>
+                    <div class="session-details">
+                        <strong>${session.session}</strong><br>Date: ${session.date}<br>Location: ${session.location}<br>Description:<br>${session.description}<br>Available Slots:<span id='slots-${session.session}'> ${session.slots}</span><br>Cost:${session.cost}
+                    </div>`;
                 
                 sessionList.appendChild(div);
  
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('booking-form').addEventListener('submit', function(event) {
         event.preventDefault();
         const selectedSession = document.getElementById('session-select').value;
-        const userName = this[1].value; // User name from the input field
+        const userName = this[1].value;
  
         // Fetch current sessions to update slots
         fetch(`http://localhost:5000/sessions`)
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const sessionToUpdate = sessions.find(session => session.session === selectedSession);
                 
                 if (sessionToUpdate && sessionToUpdate.slots > 0) {
-                    // Reduce the number of slots by 1 and update the display
+                    // Reduce the number of slots by one
                     sessionToUpdate.slots -= 1;
  
                     // Update the displayed slots in the UI
@@ -122,14 +122,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     const confirmationMessage = `Thank you ${userName}! You have successfully booked the session "${selectedSession}".`;
                     document.getElementById('booking-confirmation').innerText = confirmationMessage;
  
-                    // Optionally update slots in JSON server (this requires an additional PUT request)
+                    // Update slots in JSON server (this requires an additional PUT request)
                     fetch(`http://localhost:5000/sessions/${sessionToUpdate.id}`, {
                         method: 'PUT',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(sessionToUpdate)
                     });
                     
-                } else {
+                } else if (sessionToUpdate) {
                     alert("Sorry, no slots available for this session.");
                 }
             })
