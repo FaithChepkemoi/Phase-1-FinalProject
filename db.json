@@ -3,12 +3,26 @@
         {
             "title": "Getting Started with Scratch",
             "level": "Beginner",
-            "url": "https://example.com/tutorial1"
+            "url": "https://example.com/tutorial1",
+            "images": [
+                "images/tutorial1_image1.jpg",
+                "images/tutorial1_image2.jpg",
+                "images/tutorial1_image3.jpg",
+                "images/tutorial1_image4.jpg",
+                "images/tutorial1_image5.jpg"
+            ]
         },
         {
             "title": "Intermediate Scratch Projects",
             "level": "Intermediate",
-            "url": "https://example.com/tutorial2"
+            "url": "https://example.com/tutorial2",
+            "images": [
+                "images/tutorial2_image1.jpg",
+                "images/tutorial2_image2.jpg",
+                "images/tutorial2_image3.jpg",
+                "images/tutorial2_image4.jpg",
+                "images/tutorial2_image5.jpg"
+            ]
         }
     ],
     "sessions": [
@@ -18,14 +32,43 @@
             "location": "Online",
             "description": "Learn the basics of Scratch programming.",
             "slots": 20,
-            "cost": "$50"
+            "cost": "$50",
+            "images": [
+                "images/session1_image1.jpg",
+                "images/session1_image2.jpg",
+                "images/session1_image3.jpg",
+                "images/session1_image4.jpg",
+                "images/session1_image5.jpg"
+            ]
         }
     ],
     "projects": [
         {
             "title": "Scratch Project 1",
             "country": "USA",
-            "url": "#"
+            "url": "#",
+            "images": [
+                "images/project1_image1.jpg",
+                "images/project1_image2.jpg",
+                "images/project1_image3.jpg",
+                "images/project1_image4.jpg",
+                "images/project1_image5.jpg"
+            ]
+        }
+    ],
+   
+    "testimonials": [
+        {
+            "title": "Scratch Project 1",
+            "country": "USA",
+            "url": "#",
+            "images": [
+                "images/project1_image1.jpg",
+                "images/project1_image2.jpg",
+                "images/project1_image3.jpg",
+                "images/project1_image4.jpg",
+                "images/project1_image5.jpg"
+            ]
         }
     ]
 }
