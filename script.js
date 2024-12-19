@@ -34,6 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
           .catch(error=> console.error('Error fetching data:',error));
-          
+
+            // Handle contact form submission
+            document.getElementById('contact-form').addEventListener('submit', function(event){
+                event.preventDefault();
+                alert("Message sent! We will get back to you soon.");
+                        })
+                        
+                // Handle newsletter signup
 
 })
