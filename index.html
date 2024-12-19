@@ -16,6 +16,7 @@
                 <ul>
                     <li><a href="#explore">Explore</a></li>
                     <li><a href="#sessions">Training Sessions</a></li>
+                    <li><a href="#booking">Book a Session</a></li>
                     <li><a href="#showcase">Showcase</a></li>
                     <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -27,25 +28,34 @@
     <main>
         <section id="explore">
             <h2>Scratch Content Library</h2>
-            <p>Welcome to scratch Programming Class</p> <br>
-            <p>The coding programme in Nyeri, Kenya has been equipping students with essential ICT skills. The importance of this initiative cannot be overstated. Nyeri's students have shown immense enthusiasm for learning to code, recognizing the opportunities it brings in the digital era. Our trainers and educators have been hard at work, ensuring that this valuable knowledge reaches students in colleges, universities, and secondary schools across the country. With every coding class, we are forging pathways to brighter futures for the youth of Nyeri, empowering them to become the digital leaders of tomorrow.</p>
-
-            <div id="tutorial-list"></div>
+            <div id="tutorial-list"></div> <!-- Tutorials will be displayed here -->
         </section>
 
         <section id="sessions">
             <h2>Upcoming Training Sessions</h2>
-            <div id="session-list"></div>
+            <div id="session-list"></div> <!-- Sessions will be displayed here -->
+        </section>
+
+        <!-- Booking Section -->
+        <section id="booking">
+            <h2>Book a Session</h2>
+            <form id="booking-form">
+                <select id="session-select" required></select> <!-- Dropdown for sessions -->
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <button type="submit">Book Now</button>
+            </form>
+            <div id="booking-confirmation"></div> <!-- Confirmation message -->
         </section>
 
         <section id="showcase">
             <h2>Project Portfolio Showcase</h2>
-            <div id="project-list"></div>
+            <div id="project-list"></div> <!-- Projects will be displayed here -->
         </section>
 
         <section id="testimonials">
             <h2>Impact & Testimonials</h2>
-            <div id="testimonial-list"></div>
+            <div id="testimonial-list"></div> <!-- Testimonials will be displayed here -->
         </section>
 
         <section id="contact">
@@ -75,6 +85,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Linking to JavaScript file -->
+    <script src="script.js"></script> 
 </body>
 </html>

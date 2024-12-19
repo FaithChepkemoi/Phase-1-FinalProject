@@ -1,76 +1,90 @@
 {
     "tutorials": [
-        {
-            "title": "Getting Started with Scratch",
-            "level": "Beginner",
-            "url": "https://example.com/tutorial1",
-            "images": [
-                "images/sprite.webp",
-                "images/tutorial1_image2.jpg",
-                "images/tutorial1_image3.jpg",
-                "images/tutorial1_image4.jpg",
-                "images/tutorial1_image5.jpg"
-            ]
-        },
-        {
-            "title": "Intermediate Scratch Projects",
-            "level": "Intermediate",
-            "url": "https://example.com/tutorial2",
-            "images": [
-                "images/Advance.jpeg",
-                "images/tutorial2_image2.jpg",
-                "images/tutorial2_image3.jpg",
-                "images/tutorial2_image4.jpg",
-                "images/tutorial2_image5.jpg"
-            ]
-        }
+       {
+          "title": "Getting Started with Scratch",
+          "level": "Beginner",
+          "images": [
+             "images/sprite.png",
+             "images/advance.jpeg"
+          ]
+       },
+       {
+          "title": "Intermediate Scratch Projects",
+          "level": "Intermediate",
+          "images": [
+             "images/tutorial2.jpg"
+          ]
+       }
     ],
     "sessions": [
-        {
-            "session": "Introduction to Scratch",
-            "date": "2024-01-10",
-            "location": "Online",
-            "description": "Learn the basics of Scratch programming.",
-            "slots": 20,
-            "cost": "$50",
-            "images": [
-                "images/session1_image1.jpg",
-                "images/session1_image2.jpg",
-                "images/session1_image3.jpg",
-                "images/session1_image4.jpg",
-                "images/session1_image5.jpg"
-            ]
-        }
+       {
+          "session": "Introduction to Scratch",
+          "date": "2024-01-10",
+          "location": "Online",
+          "description": "Learn the basics of Scratch programming.",
+          "slots": 20,
+          "cost": "$50",
+          "images": [
+             "images/session1_image1.jpg"
+          ]
+       },
+       {
+          "session": "Advanced Scratch Techniques",
+          "date": "2024-01-17",
+          "location": "Online",
+          "description": "Explore advanced concepts in Scratch.",
+          "slots": 15,
+          "cost": "$75",
+          "images": [
+             "images/session2_image1.jpg"
+          ]
+       },
+       {
+          "session": "Scratch Game Development",
+          "date": "2024-01-24",
+          "location": "Online",
+          "description": "Create your own games using Scratch.",
+          "slots": 25,
+          "cost": "$60",
+          "images": [
+             "images/session3_image1.jpg"
+          ]
+       },
+       {
+          "session": "Scratch Animation Workshop",
+          "date": "2024-01-31",
+          "location": "Online",
+          "description": "Learn to animate your stories in Scratch.",
+          "slots": 30,
+          "cost": "$55",
+          "images": [
+             "images/session4_image1.jpg"
+          ]
+       }
     ],
     "projects": [
-        {
-            "title": "Scratch Project 1",
-            "country": "USA",
-            "url": "#",
-            "images": [
-               "images/project1_image1.jpg",
-               "images/project1_image2.jpg",
-               "images/project1_image3.jpg",
-               "images/project1_image4.jpg",
-               "images/project1_image5.jpg"
-           ]
-        }
+       {
+          "title": "Project A",
+          "description": "Description of Project A.",
+          "url": "#", 
+          "images": ["images/project_a_image.jpg"]
+       },
+       {
+          "title": "Project B",
+          "description": "Description of Project B.",
+          "url": "#", 
+          "images": ["images/project_b_image.jpg"]
+       }
     ],
     "testimonials": [
-        {
+       {
            "name": "John Doe",
-           "feedback": "This platform has transformed my teaching experience!",
-           "images": [
-               "images/testimonial1_image.jpg"
-           ]
-        },
-        {
+           "feedback": "\"This platform has transformed my teaching experience!\""
+       },
+       {
            "name": "Jane Smith",
-           "feedback": "I learned so much from the Scratch tutorials!",
-           "images": [
-               "images/testimonial2_image.jpg"
-           ]
-        }
+           "feedback": "\"I learned so much from the Scratch tutorials!\""
+       }
     ]
  }
  
