@@ -42,5 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         })
                         
                 // Handle newsletter signup
+                document.getElementById('newsletter-form').addEventListener('submit',function(event){
+                    alert("Subscribed! you will receive updates soon.")
+                });
 
-})
+});
