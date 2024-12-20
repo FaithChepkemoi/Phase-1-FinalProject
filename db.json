@@ -48,7 +48,7 @@
           "slots": 15,
           "cost": "$75",
           "images": [
-             "images/advance.jpeg"
+             "images/snippet.png"
           ]
        },
        {
@@ -59,7 +59,7 @@
           "slots": 25,
           "cost": "$60",
           "images": [
-             "images/advance.jpeg"
+             "images/LegoBoost.png"
           ]
        },
        {
@@ -70,7 +70,7 @@
           "slots": 30,
           "cost": "$55",
           "images": [
-             "images/advance.jpeg"
+             "images/microbit.png"
           ]
        }
     ],
