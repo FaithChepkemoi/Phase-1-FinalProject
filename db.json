@@ -1,8 +1,8 @@
 {
     "tutorials": [
        {
-          "title": "Getting Started with Scratch",
-          "description":"Scratch is a visual based block language, used to create games and animations.It is fun to leanr.",
+          "title": "Getting Started with Scratch ",
+          "description":"Basics introduction",
           "level": "Beginner",
           "images": [
              "images/sprite.png",
@@ -11,6 +11,7 @@
        },
        {
           "title": "Intermediate Scratch Projects",
+          "description":"Get deeper into coding",
           "level": "Intermediate",
           "images": [
              "images/advance.jpeg",
@@ -20,6 +21,7 @@
        {
         "title": "Advance Scratch Projects",
         "level": "Advance",
+        "description":"Use of hardware ",
         "images": [
            "images/microbit.png",
             "images/makeymakey.png"

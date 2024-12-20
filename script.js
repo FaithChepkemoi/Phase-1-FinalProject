@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 div.innerHTML = `
                     <strong>${tutorial.title}</strong><br>
                     Level: ${tutorial.level}<br>
-                    <a href="${tutorial.link}" target="_blank">Learn More</a>
+                    Description:${tutorial.description} <br>
+                    <a href="${tutorial.link}" target="_blank"></a>
                 `;
                 
                 // Add images
@@ -49,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <div class="session-details">
                         <strong>${session.session}</strong><br>Date:<br>${session.date}<br>Location:<br>${session.location}<br>Description:<br>${session.description}<br>Available Slots:<span id='slots-${session.session}'> ${session.slots}</span><br>Cost:${session.cost}<br>
-                        <a href="${session.link}" target="_blank">More Info</a>
+                        <a href="${session.link}" target="_blank"></a>
                     </div>`;
                 
                 sessionList.appendChild(div);

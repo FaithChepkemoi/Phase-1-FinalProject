@@ -68,16 +68,17 @@ h2 {
    background-color: white; /* White background for each tutorial item */
    border-radius: 5px;
    padding: 0px;
-   margin-bottom: 20px; /* Space between tutorial items */
+   margin-bottom: 2px; /* Space between tutorial items */
    box-shadow: 0 2cqmax 10px rgba(0,0,0,0.1); /* Subtle shadow effect */
  
 }
 
 /* Fixed size for tutorial images */
 .tutorial-item img {
-   width: 250px; /* Full width of the container */
+   width: 220px; /* Full width of the container */
+   padding: 10px;
    height: auto; /* Maintain aspect ratio */
-   max-height: 200px; /* Fixed height to ensure uniformity */
+   max-height: 150px; /* Fixed height to ensure uniformity */
    object-fit: cover; /* Cover the area while maintaining aspect ratio */
 }
 
@@ -116,7 +117,9 @@ h2 {
 
 }
 .session-item {
-   display: flex; /* Align image and details horizontally */
+  
+
+    display: flex; /* Align image and details horizontally */
    background-color: white; /* White background for each session item */
    border-radius: 5px;
    padding: 15px;
