@@ -10,11 +10,13 @@ ScratchSphere is a dynamic, user-friendly web platform designed to empower educa
 
 -Dynamic slot Availability: Real-time updates on the number of tickets available for each session.
 
--Secure slot Purchase: A streamlined process for booking slots.
+-Secure Training slots: A streamlined process for booking slots and watch out for the available sessions.
 
 -Subscribed to our newsletter by use of your email
 
 -Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
+
+
 
 ## Installation
 1. **Clone the repository**
@@ -44,7 +46,7 @@ Contributions are welcomed please follow the following steps:
    ~~~bash
    git commit -m "Add a new feature"
    ~~~
-4. ** push to the branch**
+4. **push to the branch**
   ~~~bash
    git push origin feature/YourFeatue
    ~~~
