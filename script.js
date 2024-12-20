@@ -9,14 +9,15 @@ document.addEventListener('DOMContentLoaded', function() {
             return response.json();
         })
         .then(data => {
-            console.log(data); // Check if data is loaded correctly
- 
-            // Load tutorials
             const tutorialList = document.getElementById('tutorial-list');
             data.forEach(tutorial => {
                 const div = document.createElement('div');
                 div.classList.add('tutorial-item');
-                div.innerHTML = `<strong>${tutorial.title}</strong><br>Level: ${tutorial.level}`;
+                div.innerHTML = `
+                    <strong>${tutorial.title}</strong><br>
+                    Level: ${tutorial.level}<br>
+                    <a href="${tutorial.link}" target="_blank">Learn More</a>
+                `;
                 
                 // Add images
                 tutorial.images.forEach(image => {
@@ -47,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         <img src="${session.images[0]}" alt="${session.session} Image">
                     </div>
                     <div class="session-details">
-                        <strong>${session.session}</strong><br>Date: ${session.date}<br>Location: ${session.location}<br>Description:<br>${session.description}<br>Available Slots:<span id='slots-${session.session}'> ${session.slots}</span><br>Cost:${session.cost}
+                        <strong>${session.session}</strong><br>Date:<br>${session.date}<br>Location:<br>${session.location}<br>Description:<br>${session.description}<br>Available Slots:<span id='slots-${session.session}'> ${session.slots}</span><br>Cost:${session.cost}<br>
+                        <a href="${session.link}" target="_blank">More Info</a>
                     </div>`;
                 
                 sessionList.appendChild(div);
@@ -69,7 +71,10 @@ document.addEventListener('DOMContentLoaded', function() {
             data.forEach(project => {
                 const div = document.createElement('div');
                 div.classList.add('project-item');
-                div.innerHTML = `<strong>${project.title}</strong><br>${project.description}`;
+                div.innerHTML = `
+                    <strong>${project.title}</strong><br>
+                    ${project.description}<br>
+                    <a href="${project.link}" target="_blank">View Project</a>`;
                 
                 // Add images for projects
                 project.images.forEach(image => {

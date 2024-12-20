@@ -5,21 +5,24 @@
           "description":"Scratch is a visual based block language, used to create games and animations.It is fun to leanr.",
           "level": "Beginner",
           "images": [
-             "images/sprite.png"
+             "images/sprite.png",
+             "images/user.png"
           ]
        },
        {
           "title": "Intermediate Scratch Projects",
           "level": "Intermediate",
           "images": [
-             "images/advance.jpeg"
+             "images/advance.jpeg",
+             "images/intermediate.png"
           ]
        },
        {
         "title": "Advance Scratch Projects",
         "level": "Advance",
         "images": [
-           "images/advance.jpeg"
+           "images/microbit.png",
+            "images/makeymakey.png"
         ]
      }
     ],
@@ -71,17 +74,37 @@
     ],
     "projects": [
        {
-          "title": "Project A",
-          "description": "Description of Project A.",
-          "url": "https://scratch.mit.edu/projects/1067401875/", 
-          "images": ["images/advance.jpeg"]
+          "title": "Sudoku  Game",
+          "description": "This project is a game made using scratch. To play, the player moves the ball- which is the star sprite- using the up, down, left and right arrow keys on their keyboard. Do not forget to read the instructions",
+          "link": "https://scratch.mit.edu/projects/1067401875",
+          "images": [
+                "images/sudoku.png",
+                "images/img12.png",
+                "images/sodukuplay.png",
+                "images/img123.png"
+        ]
        },
        {
-          "title": "Project B",
-          "description": "Description of Project B.",
-          "url": "#", 
-          "images": ["images/advance.jpeg"]
-       }
+          "title": "Cheese Chase",
+          "description": "The mouse is hungry and stuck in a maze. Help her find the cheese but avoid the evil beetles. And watch out for ghosts—the maze is haunted!",
+          "link": "https://scratch.mit.edu/projects/1076204162",
+          "images": [
+                
+                "images/cheese1.png",
+                "images/cheesechase.png",
+                "images/gameover.png"
+        ]
+       },
+       {
+        "title": "Birthday Card",
+        "description": "When you run this project, a mysterious flashing green button appears. Press the button and an animated birthday card fills the screen, complete with singing sharks. The sharks take turnssinging the lines of the “Happy Birthday” song.",
+        "link": "https://scratch.mit.edu/projects/611821700",
+        "images": [
+            "images/bday1.png",
+            "images/bday12.png",
+            "images/birthday.png"
+        ]
+     }
     ],
     "testimonials": [
        {
