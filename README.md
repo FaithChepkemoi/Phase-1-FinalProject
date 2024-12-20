@@ -10,11 +10,11 @@ ScratchSphere is a dynamic, user-friendly web platform designed to empower educa
 
 -Dynamic slot Availability: Real-time updates on the number of tickets available for each session.
 
--Secure Training slots: A streamlined process for booking slots and watch out for the available sessions.
+-Secure Training slots: A streamlined process for booking slots and watch out for the available sessions as they reduce onced you've booked.
 
 -Testimonials from other clients
 
-- Contact us- leave a message to via the site
+-Contact us- leave a message to via the site
 
 -Subscribe to our newsletter by use of your email
 
