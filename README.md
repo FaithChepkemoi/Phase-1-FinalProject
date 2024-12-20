@@ -12,7 +12,7 @@ ScratchSphere is a dynamic, user-friendly web platform designed to empower educa
 
 -Secure Training slots: A streamlined process for booking slots and watch out for the available sessions.
 
--Subscribed to our newsletter by use of your email
+-Subscribe to our newsletter by use of your email
 
 -Responsive Design: Fully optimized for desktop, tablet, and mobile devices.
 
